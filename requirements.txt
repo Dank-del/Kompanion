@@ -1,0 +1,6 @@
+telethon
+requests
+pillow
+jikanpy
+emoji
+speedtest-cli
