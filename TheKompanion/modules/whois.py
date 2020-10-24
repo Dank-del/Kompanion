@@ -54,7 +54,7 @@ async def _(event):
         location = str(e)
     caption = (
         " • ID: <code>{}</code>\n"
-        " • First Name: 'tg://user?id={}'>{}</a>\n"
+        " • First Name: tg://user?id={}'>{}</a>\n"
         " • Last Name: {}\n"
         " • Bio: {}\n"
         " • DC ID: {}\n"
