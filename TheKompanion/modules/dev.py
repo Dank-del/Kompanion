@@ -115,11 +115,12 @@ async def chatidgetter(event):
 async def help(event):
     msg = """
         **Kompanion. Dev mod**
-        `.eval` -> execute python code.
-        `.exec` -> shell.
+        `.eval` -> evalute python code.
+        `.exec` -> execute python code.
         `.chatid` -> get chat ID.
         `.chatinfo` -> get chat info. 
         `.speed` -> just a speedtest.
+        `.sh` / `.shell` / `.bash` / `.term` -> shell stuff
     """
     await event.edit(msg)
     
